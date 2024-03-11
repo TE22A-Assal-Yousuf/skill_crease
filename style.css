@@ -112,7 +112,7 @@ footer{
     grid-row-end: 6;
 }
 #FTcontent{
-    background-image:url(/skillcrease/img/YHdtAs36hSJUL56Lq2nxFi-1200-80.jpg);
+    background-image:url(./img/YHdtAs36hSJUL56Lq2nxFi-1200-80.jpg);
     height: 50vh;
     width: 50vw;  
     grid-column-start: 2;
@@ -130,7 +130,7 @@ footer{
   
 }
 #FTcontent2{
-    background-image:url(/skillcrease/img/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jfif);
+    background-image:url(./img/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jfif);
     height: 50vh;
     width: 50vw;  
     grid-column-start: 2;
@@ -184,7 +184,7 @@ footer{
 
 }
 #FTgame2{
-    text-size-adjust: 20px;
+    text-size-adjust: 15px;
     background-color: rgba(64, 64, 64, 1);
     grid-row-start: 3;
     grid-row-end: 5;  
@@ -192,6 +192,9 @@ footer{
     grid-column-end: 4;  
     border-radius: 5px;
 
+}
+h2{
+    margin: 5px;
 }
 #ftimg{
     height: 20vw;
