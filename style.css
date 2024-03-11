@@ -1,0 +1,241 @@
+body{
+
+    background-color: rgba(74, 74, 74, 1);
+    display: grid;
+    grid-template-columns: 8vw 65vw 10vw 10vw;
+    grid-template-rows: 10vw 40vw 40vw 20vw;
+    grid-column-gap: 20px ;
+    grid-row-gap: 5px ;
+
+}
+.top{
+    display: grid;
+    grid-template-columns: 15vw 65vw 20vw;
+
+    align-items: center;
+    background-color:rgba(51, 51, 51, 1);
+    grid-column-start: 1;
+    grid-column-end: 5;   
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#searchbar{
+    padding-left: 10px;
+}
+#useraccount{
+    padding-left: 5vw;
+}
+.account{
+    
+    display: flex;
+    align-items: center;
+}
+#accbg{
+
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    background-color: rgba(64, 64, 64, 1);
+    border-radius: 50px;
+
+}
+.acclogo{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    height: 30px;
+    width: auto;
+    
+}
+#reg{
+  
+    padding-right: 20px;
+    
+}
+.search{
+    background-color: rgba(255, 255, 255, 1);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 95% 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+#searchiconbg{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    background-color:rgba(64, 64, 64, 1);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#srcicon{
+    width: 30px;
+    padding-top: 10px; ;
+    padding-left: 10px;
+    height: auto;
+}
+
+header{
+    color: rgba(255, 255, 255, 1);
+    grid-column-start: 1;
+    grid-column-end: 5;   
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center  ;
+}
+aside{
+    background-color: rgba(217, 217, 217, 1);
+    grid-column-start: 1;
+    grid-column-end: 2;   
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+main{
+    display: grid;
+    grid-template-columns: 7vw 35vw 5vw 35vw 7vw; 
+    grid-template-rows: 3vh 50vh 3vh 50vh 5vh; 
+    
+    grid-column-start: 2;
+    grid-column-end: 4;   
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+footer{
+    background-color: rgba(217, 217, 217, 1);
+    grid-column-start: 1;
+    grid-column-end: 5;   
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+#FTcontent{
+    background-image:url(/skillcrease/img/YHdtAs36hSJUL56Lq2nxFi-1200-80.jpg);
+    height: 50vh;
+    width: 50vw;  
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 2;
+    grid-row-end: 4;  
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5vw 3vw 15vw 4vw 10vw 8vw 2vw 3vw;
+    grid-template-rows: 7vh 8vh 5vh 3vh 20vh 7vh;
+    grid-row-gap: 5px ;
+
+    
+  
+}
+#FTcontent2{
+    background-image:url(/skillcrease/img/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b.jfif);
+    height: 50vh;
+    width: 50vw;  
+    grid-column-start: 2;
+    grid-column-end: 3; 
+    grid-row-start: 4;
+    grid-row-end: 5;  
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5vw 3vw 15vw 4vw 10vw 8vw 2vw 3vw;
+    grid-template-rows: 7vh 8vh 5vh 3vh 20vh 7vh;
+    grid-row-gap: 5px ;
+
+    
+  
+}
+#FTheader{
+    background-color: rgba(51, 51, 51, 1);
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    height: 5vh;
+    grid-row-start: 1;
+    grid-row-end: 2;  
+    grid-column-start: 1;
+    grid-column-end: 9;  
+    margin-bottom: 2vh;
+}
+#FTtext{
+    margin: 0px;
+}
+.FTtext{
+    color: rgba(255, 255, 255, 1);
+    margin: 0px;
+
+}
+#FTPrice{
+    background-color:rgba(31, 66, 133, 1);
+    grid-row-start: 3;
+    grid-row-end: 5;  
+    grid-column-start: 5;
+    grid-column-end: 6;  
+    border-radius: 5px;
+}
+#FTgame{
+    background-color: rgba(64, 64, 64, 1);
+    grid-row-start: 3;
+    grid-row-end: 5;  
+    grid-column-start: 2;
+    grid-column-end: 4;  
+    border-radius: 5px;
+
+}
+#FTgame2{
+    text-size-adjust: 20px;
+    background-color: rgba(64, 64, 64, 1);
+    grid-row-start: 3;
+    grid-row-end: 5;  
+    grid-column-start: 2;
+    grid-column-end: 4;  
+    border-radius: 5px;
+
+}
+#ftimg{
+    height: 20vw;
+    width: auto;
+}
+.sidearrows{
+}
+#Rightarrow{ 
+    align-items: center;   
+    grid-row-start: 1;
+    grid-row-end: 7;  
+    grid-column-start: 7;
+    grid-column-end: 9;  
+}
+.Arrow{
+    width: 20px;
+    height: auto;
+}
+#Leftarrow{
+    align-items: center;   
+    grid-row-start: 1;
+    grid-row-end: 7;  
+    grid-column-start: 1;
+    grid-column-end: 2; 
+}
+.description{
+    background-color: rgba(64, 64, 64, 0.75);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    grid-row-start: 4;
+    grid-row-end: 7;  
+    grid-column-start: 2;
+    grid-column-end: 7;  
+
+}
+.accname{
+    color:rgba(255, 255, 255, 1);
+    margin-left: 20px;
+}
+#ftseller{
+    grid-row-start: 2;
+    grid-row-end: 3;  
+    grid-column-start: 2;
+    grid-column-end: 4;  
+    margin-right: 20px;
+    margin-bottom: 3vh;
+}
